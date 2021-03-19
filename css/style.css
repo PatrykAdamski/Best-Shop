@@ -74,9 +74,7 @@ a.logo{
 .first-section-wrap{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-
 }
 .title{
     font-family: var(--font-raleway);
@@ -98,3 +96,412 @@ a.logo{
     background-color: var(--color-primary);
     padding: 22px 157px;
 }
+/* SECTION */
+.circle-red{
+    background-color: var(--color-redish);
+}
+.circle-blue{
+    background-color: var(--color-primary);
+}
+.circle-green{
+    background-color: var(--color-green);
+}
+.circle{
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    position: relative;
+}
+.statistic-title{
+    font-family: var(--font-raleway);
+    font-size: 3.6em;
+    color: var(--color-black);
+    text-align: center;
+    margin: 100px 0;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 121px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box img{
+    position: absolute;
+    top: 5.5px;
+    left: 50%;
+}
+.circle-blue img{
+    top: 13.25px;
+}
+.numbers{
+    font-family: var(--font-raleway);
+    font-weight: 800;
+    font-size: 2em;
+    color: var(--color-black);
+    margin-top: 14px;
+    margin-bottom: 19px;
+}
+.describe{
+    font-family: var(--font-raleway);
+    font-weight: normal;
+    font-size: 1.6em;
+    color: var(--color-grey);
+}
+/* SECTION BENEFITS */
+.line{
+    display: block;
+    width: 328px;
+    border: 2px solid;
+}
+.line-red{
+    border-color: var(--color-redish);
+}
+.line-blue{
+    border-color: var(--color-primary);
+}
+.line-green{
+    border-color: var(--color-green);
+}
+.benefits{
+    background-color: var(--color-light-grey);
+}
+.benefits-wrap{
+    padding: 105px 100px;
+}
+.benefits-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: var(--color-white);
+    margin-right: 71px;
+}
+.benefits-box-left{
+    padding: 91px 0 91px 35px;
+    max-width: 420px;
+}
+.benefits-box-right{
+    width: 440px;
+    position: relative;
+}
+.benefits-title{
+    font-family: var(--font-raleway);
+    font-size: 3.6em;
+    color: var(--color-black);
+    margin-bottom: 30px;
+}
+.benefits-description{
+    font-size: 1.6em;
+    color: var(--color-black);
+    margin-bottom: 50px;
+}
+.benefits-box:first-child{
+    margin-bottom: 37px;
+}
+.benefits-box:last-child{
+    margin-top: 37px;
+}
+.square::before{
+    content: "";
+    width: 180px;
+    height: 180px;
+    background-color: var(--color-redish);
+    display: block;
+    border-radius: 40px;
+    position: absolute;
+    right: 40px;
+    top: -40px;
+    transform: rotate(45deg);
+}
+.benefits-box-right img{
+width: 386px;
+height: auto;
+position: relative;
+z-index: 2;
+}
+.square{
+    position: relative;
+    margin-right: 117px;
+    margin-bottom: 38px;
+}
+.benefits-box-phone{
+    flex-direction: row-reverse;
+    padding: 0 20px 0 70px;
+    margin-bottom: 37px;
+}
+.phone::before{
+    content: "";
+    width: 320px;
+    height: 320px;
+    background-color: var(--color-primary);
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -20px;
+  }
+  .phone img{
+    width: 426px;
+    height: auto;
+  }
+  .benefits-special {
+    display: flex;
+  }
+  .benefits-box-trumpet {
+    max-width: 620px;
+  }
+  .trumpet{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-green);
+    border: none;
+    height: 350px;
+    margin-right: 71px;
+  }
+  .trumpet img{
+    width: 295px;
+    height: auto;
+    margin-top: 55px;
+  }
+  .benefits-box-trumpet .benefits-box-left{
+    max-width: none;
+  }
+  /* SECTION PRICING */
+  .pricing{
+      padding-top: 100px;
+      margin-bottom: 150px;
+  }
+  .pricing-boxes{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 50px;
+  }
+  .pricing h2{
+      font-family: var(--font-raleway);
+      font-size: 3.6em;
+      text-align: center;
+  }
+  .pricing-text{
+      font-family: var(--font-raleway);
+      font-weight: bold;
+      font-size: 2em;
+      margin-bottom: 14px;
+      margin-top: 34px;
+  }
+  .pricing-price{
+      font-size: 4.6em;
+      color: var(--color-redish);
+      font-weight: 300;
+      font-family: var(--font-open-sans);
+  }
+  .pricing-boxes-single{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 370px;
+      border: 1px solid var(--color-redish);
+      border-radius: 18px;
+  }.pricing ul{
+      margin-top: 60px;
+  }
+  .pricing li{
+      font-size: 1.4em;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .pricing li:nth-last-child(1){
+      margin-bottom: 80px;
+  }
+  .image-ok::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("../assets/Ckechmark-1.svg");
+  }
+  
+  .image-close::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("../assets/Close.svg");
+  }
+  .pricing-boxes-single a{
+      position: absolute;
+      bottom: -25px;
+      left: calc(50%-75px);
+      font-family: var(--font-open-sans);
+      font-weight: bold;
+      font-size: 1.3em;
+      box-shadow: 5px 10px 14px #07ACE629;
+      border-radius: 23px;
+      color: var(--color-white);
+      display: block;
+      text-align: center;
+      line-height: 50px;
+      width: 150px;
+      height: 50px;
+      background-color: var(--color-redish);
+  }
+  .limited{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-family: var(--font-raleway);
+    font-weight: 700;
+  }
+  .pricing-boxes-single-basic{
+      padding: 13px 0;
+  }
+  .pricing-boxes-single-professional a{
+    background-color: var(--color-primary);
+  }
+  .pricing-boxes-single-professional{
+      width: 400px;
+      padding: 20px 0;
+      box-shadow: 5px 1px 27px var(--color-primary-shadow);
+      border-color: var(--color-primary);
+  }
+  .pricing-boxes-single-professional .pricing-price{
+      color: var(--color-primary);
+  }
+
+
+
+  /* SECTION CONTACT */
+  .contact{
+    display: flex;
+    justify-content: center;
+  }
+  .contact-box h3{
+      font-family: var(--font-raleway);
+      font-size: 49px;
+  }
+  .contact-box p{
+      font-size: 16px;
+      margin-top: 22px;
+      margin-bottom: 40px;
+  }
+  .contact-box{
+      width: 50%;
+  }
+  .contact-detail img{
+      width: 27px;
+      height: 27px;
+      margin-right: 10px;
+  }
+  .contact-details a, .contact-details a:visited{
+      font-size: 1.6em;
+      color: var(--color-grey);
+  }
+  .contact-details a:first-of-type{
+      margin-right: 20px;
+  }
+
+  .form{
+      display: flex;
+      flex-direction: column;
+  }
+  .form-detail{
+      display: flex;
+      flex-direction: column;
+  }
+  .form-detail:first-of-type{
+      margin-bottom: 42px;
+  }
+  .form-label{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    letter-spacing: 3px;
+    font-size: 1.1em;
+  }
+  .form-input{
+    border: none;
+    border-bottom: 1px solid var(--color-grey);
+    background-color: transparent;
+    line-height: 2.625rem;
+  }
+  .form-consent{
+      margin-top: 30px;
+  }
+  .form-checkbox{
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 1.2em;
+  }
+  .form-checkbox input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .form-checkbox .checkbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-grey);
+    border-radius: 4px;
+  }
+  .form-checkbox input:checked + .checkbox{
+    background-image: url(../assets/Checkmark.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .consent-text{
+    margin: 0 10px;
+    font-size: 1.2em;
+    color: var(--color-grey);
+    line-height: 17px;
+  }
+  .form .btn {
+    font-size: 1.3em;
+    padding: 20px 97px;
+    align-self: flex-end;
+    margin-top: 20px;
+    background-color: var(--color-primary);
+    border:none;
+  }
+
+  /* FOOTER */
+  .footer{
+    box-shadow: 0 -5px 40px #00000029;
+    padding: 20px 0;
+    margin-top: 60px;
+  }
+  .footer-wrap{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .footer-info{
+      display: flex;
+      flex-direction: column;
+  }
+  .footer-icons a:first-of-type{
+      margin-right: 25px;
+  }
+  .footer-copy{
+    font-size: 1.1em;
+    line-height: 2.4em;
+    color: var(--color-grey);
+    margin-top: 6px;
+  }
